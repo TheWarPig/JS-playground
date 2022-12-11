@@ -28,7 +28,6 @@ function displayRepos(repos) {
     const li = document.createElement("li");
     const body = document.querySelector("body");
     li.innerHTML = `<a href="https://thewarpig.github.io/${repos[i].name}" target="_blank">${repos[i].name}</a> `;
-    console.log(repos[1]);
     body.appendChild(li);
   }
 }
